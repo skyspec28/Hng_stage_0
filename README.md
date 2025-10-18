@@ -2,6 +2,12 @@
 
 A simple FastAPI application that provides a REST API endpoint returning profile information along with random cat facts.
 
+## Repository Information
+
+- GitHub Repository: [https://github.com/skyspec28/Hng_stage_0](https://github.com/skyspec28/Hng_stage_0)
+- Author: skyspec28
+- Email: maulomepelumi@gmail.com
+
 ## Features
 
 - GET `/me` endpoint returning profile information
@@ -21,8 +27,8 @@ A simple FastAPI application that provides a REST API endpoint returning profile
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
-cd <repository-name>
+git clone https://github.com/skyspec28/Hng_stage_0.git
+cd Hng_stage_0
 ```
 
 2. Create a virtual environment and activate it:
@@ -37,15 +43,6 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-
-4. Configure environment variables:
-   - Copy `.env.example` to `.env`
-   - Update the values in `.env` with your information:
-     ```
-     USER_EMAIL=your.email@example.com
-     USER_NAME=Your Full Name
-     USER_STACK=Python/FastAPI
-     ```
 
 ## Running the Application
 
